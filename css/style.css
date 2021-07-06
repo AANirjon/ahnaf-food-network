@@ -62,4 +62,6 @@ span{
     border-radius: 35px;
     background-image: linear-gradient(#ff8828,rgb(202, 141, 29));
 }
-
+.center{
+    text-align: center;
+}
