@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    color: chartreuse;
+}
+.ordr-btn{
+    background-image: linear-gradient(red,orange);
+    border-radius: 4px;
+    padding: 3px 6px;
+    border: coral;
+    text-decoration: none;
+}
+.first-sec{
+    display: flex;
+    padding: 5%;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img {
+    width: 100%;
+}
+.text-part{
+    padding-top: 10%;
+    padding-right: 10%;
+}
