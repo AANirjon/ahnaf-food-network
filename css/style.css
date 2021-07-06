@@ -1,7 +1,24 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
+
+.hdr{
+    display: inline-block;
+    text-decoration: none;
+
+}
+nav{
+    float: right ;
+    padding-right: 500px;
+}
+.taitle{
+    float: left;
+}
+
 .bigger{
     font-size: 45px;
     color:#3f3f3f;
@@ -40,7 +57,7 @@ span{
     background-image: url(../image/7.png);
     display: flex;
     padding-left: 15%;
-    margin-top: 8%;
+    margin-top: 5%;
     background-repeat: no-repeat;
 }
 .image-part img{
@@ -77,12 +94,14 @@ span{
 
 .thrd-sec{
     display: flex;
-    margin-top: 4%;
+    margin-top: 4.5%;
     box-sizing: border-box;
+    margin-bottom: 10%;
 }
 .box{
-    box-shadow: 
+    box-shadow: 4px 4px 100px #6b6b6b;
     border-radius: 10px;
+    margin-left: 3.8%;
 }
 .box1{
     width: 28.33%;
@@ -105,4 +124,33 @@ span{
 }
 .box3 img{
     width: 100%;
+}
+.fourth-sec{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 4px 4px 80px #6b6b6b;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+.dive{
+    width: 33.333%;
+    text-align: center;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.dive h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.dive p{
+    margin-top: 0px;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+}
+footer p {
+    color: cornsilk;
 }
