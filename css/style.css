@@ -6,18 +6,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-.hdr{
-    display: inline-block;
-    text-decoration: none;
-
-}
-nav{
-    float: right ;
-    padding-right: 500px;
-}
-.taitle{
-    float: left;
-}
 
 .bigger{
     font-size: 45px;
