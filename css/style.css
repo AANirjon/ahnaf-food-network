@@ -69,6 +69,14 @@ span{
     border-radius: 8px;
     background-image: linear-gradient(yellow,greenyellow);
 }
+.ordr-btn:hover,
+.ordr-btn:active{
+    padding: 2%;
+    text-decoration: none;
+    color: #0c0c0c;
+    border-radius: 8px;
+    background-image: linear-gradient(#3da191,#37399c);
+}
 
 .half-width{
     width: 50%;
@@ -115,6 +123,13 @@ span{
     border-radius: 35px;
     background-image: linear-gradient(#ff8828,rgb(202, 141, 29));
 }
+.cntac-btn:hover,
+.cntac-btn:active{
+    padding: 20px 30px;
+    color: blue;
+    border-radius: 35px;
+    background-image: linear-gradient(#46301c,#083b08));
+}
 .center{
     text-align: center;
     color: #3f3f3f;
@@ -141,6 +156,13 @@ span{
     box-shadow: 4px 4px 100px #6b6b6b;
     border-radius: 10px;
     margin-left: 3.8%;
+    transition: transform .2s;
+}
+.box:hover,
+.box:active{
+    box-shadow: 4px 4px 100px #3d0101d3;
+    border-radius: 10px;
+    transform: scale(1.1);
 }
 .box1{
     width: 28.33%;
